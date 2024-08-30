@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<!-- ----------------------------------------home page---------------------- -->
+<section class="w-[100%] h-[90vh] bg-[url('image/main.jpg')] bg-center bg-cover ">
+<div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+    <header class="max-w-[1170px] mx-auto pt-[20px]">
+        <div  class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-[10px] item-center ">
+           <div>
+            <img src="/image/logo.png" class="w-[148px]">
+           </div> 
+           <div class=" flex justify-end gap-[20px]">
+            <div class="">
+              <select name="" class="bg-[black] text-white border-[1px] p-[5px_30px] rounded-[5px] font-medium ">
+               
+                <option value="" >English</option>
+                <option value="">Hindi</option>
+                <option value="">Hindi</option>
+              </select>  
+            </div>
+            <div>
+                <button class="bg-[red] text-[white] p-[5px_15px] rounded-[5px] font-medium  "> Sign in</button>
+            </div>
+           </div>
+        </div>
+    </header>
+     <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] text-center">
+<p class="text-5xl text-white font-[900]">Unlimited movies, TV shows and more</p>
+<P class=" text-white font-[400] text-[25px] my-[25px]">Watch anywhere. Cancel anytime.</P>
+<P class=" text-white font-[400] text-[20px] my-[20px]">Ready to watch? Enter your email to create or restart your membership..</P>
+<div class="max-w-[700px ]"> 
+  <div class=" max-w-[700px ] sm:px-[10px]    ">
+    <form action="" class="grid gap-[20px] sm:grid-cols-[70%_auto] sm:grid-cols-1">
+      <input type="text" class="border-[1px] ml-[40%]  pl-[20px] h-[50px] border-[#ccc] bg-[transparent]   hover:outline-white text-white rounded-[5px] placeholder:italic placeholder:text-slate-400 hover:bg-[rgb(193 ,17,25)]  duration-300 " placeholder='Email Address'>
+   
+  <button class="bg-[red] text-[white] p-[5px_15px] rounded-[5px] font-medium  "> Get Started   ></button>
+
+    </form>
+
+  </div>
+
+</div>
+</div>
+</section>
+ 
+<section class="w-[100%] h-[600px] bg-black  border-t-[7px] border-t-[#343131]  sm:p-[50px] ">
+  <div class="max-w-[1170px] mx-auto px-[15px] ">
+    <div class="main  grid sm:grid-cols-2 sm:grid-cols-1  items-center">
+  <div class="text text-white ">
+  <h1 class="text-[45px]  font-[900] ">Enjoy on your TV</h1>
+  <p class="font-[500]  sm:text-[25px] ">Watch on smart TVs, PlayStation, Xbox, Chromecat, Apple TV, Blu-ray players and more.</p>
+  </div>
+  <div class="video_box relative "  >
+    <video src="/image/video-tv-in-0819.m4v" 
+    class="absolute  z-1  sm:w-[75%] sm:bottom-[28%] sm:left-[12%]" autoplay loop></video>
+  <img src="/image/tv.png"class="w-[600px] h-auto relative z-2">
+  </div>
+    </div>
+  </div>
+</section >
+
+<section class="w-[100%] h-[600px] bg-black  border-t-[7px] border-t-[#343131]  sm:p-[50px] ">
+  <div class="max-w-[1170px] mx-auto  ">
+    <div class="main  grid sm:grid-cols-2 sm:grid-cols-1  items-center">
+ 
+  <div class="video_box relative sm:order-1 order-2"  >
+ <img src="/image/mobile-0819.jpg" alt="">
+ <div class="sm:w-[57%] w-[70%] absolute sm:left-[22%] left-[15%] border-[1px] border-[#ccc] sm:bottom-[20px] bottom-[0px] grid grid-cols-[70%_auto] bg-black iktems-center rounded-[10px]">
+  <div class="grid grid-cols-[28%_auto] p-[10px] items-center">
+    <img src="/image/box.png"  class="" alt="">
+ <div class="text-white pl-[10px]">
+  <h1 class="font-[800] text-[15px]">Stranger Things</h1>
+  <h3 class="text-[blue] leading-[12px]">Downloading....</h3>
+ </div>
+</div>
+<div class="max-w-[50px] mt-[20px] ml-[25px]"><img src="/image/download-icon.gif" alt=""></div>
+</div>
+  </div>
+
+  <div class="text text-white sm:leading-[60px] leading-[35px] sm:order-2 order-1 sm:text-left text-center  ">
+    <h1 class="sm:text-[46px] text-[30px] sm:p-[5px] py-[35px] px-[25px]   sm:font-[900] font-[600] sm:mb-[20px] mb-[none] ">Download your shows to watch offline</h1>
+    <p class="font-[500]  sm:text-[25px] leading-[30px]  ">Save your favourites easily and always have something to watch.</p>
+    </div>
+    </div>
+  </div>
+</section >
+
+
+
+<section class="w-[100%] h-[600px] bg-black  border-t-[7px] border-t-[#343131]  sm:p-[50px] ">
+  <div class="max-w-[1170px] mx-auto px-[15px] ">
+    <div class="main  grid sm:grid-cols-2 sm:grid-cols-1  items-center">
+  <div class="text text-white ">
+  <h1 class="text-[45px]  font-[900] ">Watch everywhere</h1>
+  <p class="font-[500]  sm:text-[25px] ">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+  </div>
+  <div class="video_box relative "  >
+    <video src="/image/video-devices-in.m4v" 
+    class="absolute  z-1  sm:w-[60%] w-[55%] sm:bottom-[43%] bottom-[50%] sm:left-[19%] left-[20%]" autoplay loop></video>
+  <img src="/image/device-pile-in.png"class="w-[600px] h-auto relative z-2">
+  </div>
+    </div>
+  </div>
+</section >
+
+<section class="w-[100%] h-[600px] bg-black  border-t-[7px] border-t-[#343131]  sm:p-[50px] ">
+  <div class="max-w-[1170px] mx-auto px-[15px] ">
+    <div class="main  grid sm:grid-cols-2 sm:grid-cols-1  items-center">
+      <div class="video_box relative "  >
+       
+      <img src="/image/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png"class="w-[600px] h-auto relative z-2">
+      </div>
+
+  <div class="text text-white ">
+  <h1 class="text-[45px]  font-[900] ">Create profiles for kids
+  </h1>
+  <p class="font-[500]  sm:text-[25px] ">Send children on adventures with their favourite characters in a space made just for them—free with your membership.
+
+  </p>
+  </div>
+ 
+    </div>
+  </div>
+</section >
+
+
+<section class="w-[100%] h-[120vh] bg-black border-t-[7px] border-t-[#343131] px-[50px] pt-[55px]">
+  <div class="max-w-[1170px] mx-auto ">
+    <h1 class="text-center text-white sm:text-[50px]  font-[800]">Frequently Asked Questions</h1>
+<div class="pt-[30px]">
+  <div class="bg-[#2d2d2d]">
+    <div class="  p-[20px] text-white text-[30px] rilative border-b-[2px] border-black hover:bg-[rgb(78,78,78)]  cursor-pointer "onclick="myFunction()" >
+      <h3>What is Netflix <span class=" span absolute right-[13%]  text-white  ">+</span></h3>
+    </div>
+    <div class=" click text-white text-[20px] p-[20px] hidden" id="click">
+      <p> Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+
+      <p>
+        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+      </p>
+    </div>
+  </div>
+
+  
+</div>
+<div class="py-[5px]">
+  <div class="bg-[#2d2d2d]">
+    <div class="  p-[20px] text-white text-[30px] rilative border-b-[2px] border-black hover:bg-[rgb(78,78,78)]  cursor-pointer " >
+      <h3>What is Netflix <span class="absolute right-[13%]  text-white  ">+</span></h3>
+    </div>
+    <div class=" click1 text-white text-[20px] p-[20px] hidden" id="click">
+      <p> Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+
+      <p>
+        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="py-[5px]">
+  <div class="bg-[#2d2d2d]">
+    <div class="  p-[20px] text-white text-[30px] rilative border-b-[2px] border-black hover:bg-[rgb(78,78,78)]  cursor-pointer " >
+      <h3>What is Netflix <span class="absolute right-[13%]  text-white  ">+</span></h3>
+    </div>
+    <div class=" click2 text-white text-[20px] p-[20px] hidden" id="click">
+      <p> Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+
+      <p>
+        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="py-[5px]">
+  <div class="bg-[#2d2d2d]">
+    <div class="  p-[20px] text-white text-[30px] rilative border-b-[2px] border-black hover:bg-[rgb(78,78,78)]  cursor-pointer " >
+      <h3>What is Netflix <span class="  absolute right-[13%]  text-white  ">+</span></h3>
+    </div>
+    <div class=" click3 text-white text-[20px] p-[20px] hidden" id="click">
+      <p> Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+
+      <p>
+        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="py-[5px]">
+  <div class="bg-[#2d2d2d]">
+    <div class="  p-[20px] text-white text-[30px] rilative border-b-[2px] border-black hover:bg-[rgb(78,78,78)]  cursor-pointer " >
+      <h3>What is Netflix <span class="absolute right-[13%]  text-white  ">+</span></h3>
+    </div>
+    <div class=" click4 text-white text-[20px] p-[20px] hidden" id="click">
+      <p> Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+
+      <p>
+        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="py-[5px]">
+  <div class="bg-[#2d2d2d]">
+    <div class="  p-[20px] text-white text-[30px] rilative border-b-[2px] border-black hover:bg-[rgb(78,78,78)]  cursor-pointer " >
+      <h3>What is Netflix <span class="absolute right-[13%]  text-white  ">+</span></h3>
+    </div>
+    <div class=" click5 text-white text-[20px] p-[20px] hidden">
+      <p> Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+
+      <p>
+        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+      </p>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <input type="text" class="max-w-[100%] border-[1px] ml-[40%]  pl-[20px] h-[50px] border-[#ccc] bg-[transparent]   hover:outline-white text-white rounded-[5px] placeholder:italic placeholder:text-slate-400 hover:bg-[rgb(193 ,17,25)]  duration-300 " placeholder='Email Address'>
+   
+  <button class="bg-[red] text-[white] p-[5px_15px] rounded-[5px] font-medium  "> Get Started   ></button>
+</section>
+
+
+<section class="w-[100%] h-[500px] bg-black  border-t-[7px] border-t-[#343131] sm:py-[60px]  ">
+  <div class="max-w-[1170px] mx-auto px-[15px] ">
+    <h3 class="text-[white] text-[18px]">Questions? Call 000-800-919-1694</h3>
+    <div class="py-[30px] grid sm:grid-cols-4 grid-cols-1 text-[white]  ">
+      <div>
+        <ul>
+          <li class="mb-[10px]"><a class="underline" href="">FAQ</a></li>
+          <li class="mb-[10px]"><a class="underline" href="">Investor Relations</a></li>
+          <li class="mb-[10px]"><a class="underline" href="">Privacy</a></li>
+          <li class="mb-[10px]"><a class="underline" href="">Speed Test</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <ul>
+          <li class="mb-[10px]"><a class="underline" href="">FAQ</a></li>
+          <li class="mb-[10px]"><a class="underline" href="">Investor Relations</a></li>
+        <li class="mb-[10px]"><a class="underline" href="">Privacy</a></li>
+        <li class="mb-[10px]"><a class="underline" href="">Speed Test</a></li>
+      </ul>
+    </div>
+    
+    <div>
+      <ul>
+        <li class="mb-[10px]"><a class="underline" href="">FAQ</a></li>
+        <li class="mb-[10px]"><a class="underline" href="">Investor Relations</a></li>
+        <li class="mb-[10px]"><a class="underline" href="">Privacy</a></li>
+        <li class="mb-[10px]"><a class="underline" href="">Speed Test</a></li>
+      </ul>
+    </div>
+    
+    <div>
+      <ul>
+        <li class="mb-[10px]"><a class="underline" href="">FAQ</a></li>
+        <li class="mb-[10px]"><a class="underline" href="">Investor Relations</a></li>
+        <li class="mb-[10px]"><a class="underline" href="">Privacy</a></li>
+        <li class="mb-[10px]"><a class="underline" href="">Speed Test</a></li>
+      </ul>
+    </div>
+    
+  </div>
+  <select name="" class="bg-[black] text-white border-[1px] p-[5px_30px] rounded-[5px] font-medium ">
+    
+    <option value="" >English</option>
+    <option value="">Hindi</option>
+    <option value="">Hindi</option>
+  </select> 
+</div>
+</section>
+
+
+
+ <script>
+  function myFunction() {
+    var x = document.querySelector(".click");
+    var a = document.querySelector(".click1");
+    var b = document.querySelector(".click2");
+    var c = document.querySelector(".click3");
+    var d = document.querySelector(".click4");
+    var e = document.querySelector(".click5");
+    
+    var y = document.querySelector(".span");
+  
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      y.innerHTML = "*";
+    } else {
+      x.style.display = "none";
+      y.innerHTML = "+";
+    }
+  }
+ </script>
+</body>
+</html>
